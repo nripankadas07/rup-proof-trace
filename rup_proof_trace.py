@@ -2,10 +2,13 @@
 import argparse
 import hashlib
 import json
+import re
 import sys
 
 
 def clause(tokens, n):
+    if any(not re.fullmatch(r'-?[0-9]+', t) for t in tokens):
+        raise ValueError('non-DIMACS numeric token')
     try: values=[int(t) for t in tokens]
     except ValueError: raise ValueError('noninteger clause literal') from None
     if not values or values[-1] != 0 or 0 in values[:-1] or any(abs(v)>n for v in values[:-1]):
@@ -22,6 +25,7 @@ def parse_cnf(text):
             p=s.split()
             if header is not None or tokens or len(p)!=4 or p[:2]!=['p','cnf']:
                 raise ValueError('invalid DIMACS header')
+            if any(not re.fullmatch(r'[0-9]+', t) for t in p[2:]):raise ValueError('non-DIMACS header count')
             try: n,m=map(int,p[2:])
             except ValueError: raise ValueError('invalid DIMACS counts') from None
             if not 0<=n<=64 or not 0<=m<=256: raise ValueError('CNF count limit')

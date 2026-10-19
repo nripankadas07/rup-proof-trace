@@ -24,3 +24,7 @@ class Behavior(unittest.TestCase):
  def test_multiline_comments(self):self.assertEqual(parse_cnf('c example\np cnf 2 1\n1\nc gap\n2 0')[1],[(1,2)])
  def test_visit_budget(self):
   with self.assertRaisesRegex(ValueError,'budget'):verify(CNF,'1 0\n0',1)
+
+ def test_non_dimacs_numeric_tokens(self):
+  for cnf,proof in [('p cnf 1_0 1\n10 0','10 0'),('p cnf 10 1\n1_0 0','10 0'),('p cnf 10 1\n10 0','1_0 0'),('p cnf +1 0','')]:
+   with self.assertRaises(ValueError):verify(cnf,proof)

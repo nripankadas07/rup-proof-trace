@@ -1,0 +1,3 @@
+# Numeric grammar repair —19 October2026
+
+At default725ef4abc5653dc23bc1866df00f9d53e31bda03, `p cnf 1_0 1` with clause `1_0 0` was accepted as variable10 because Python int accepts underscores. This is outside DIMACS numeric grammar. Require decimal digits for counts and optional leading minus plus digits for literals. A regression covers header/formula/proof underscores and signed header counts; no successful proof expectation was changed. Version0.1.1 preserves existing-variable, RUP-only and final-empty-clause limits. Fresh behavior, wheel and symlinked-venv installed checks are required, along with remote CI.
