@@ -1,0 +1,267 @@
+{
+  "comparables": [
+    {
+      "full": "marijnheule/drat-trim",
+      "url": "https://github.com/marijnheule/drat-trim",
+      "stars": 72,
+      "pushed_at": "2024-11-25T15:20:29Z",
+      "archived": false,
+      "license": "MIT",
+      "branch": "master",
+      "observed": "2026-10-19T06:23:16.729Z",
+      "issues": [
+        {
+          "number": 43,
+          "url": "https://github.com/marijnheule/drat-trim/pull/43",
+          "title": "lrat-check: reject an empty lemma that does not end in a conflict"
+        },
+        {
+          "number": 42,
+          "url": "https://github.com/marijnheule/drat-trim/issues/42",
+          "title": "`lrat-check` says \"VERIFIED\" for a proof that proves nothing (regression #31)"
+        },
+        {
+          "number": 41,
+          "url": "https://github.com/marijnheule/drat-trim/issues/41",
+          "title": "Comment not properly ignored in the PROOF file (and -I option ignored)"
+        },
+        {
+          "number": 40,
+          "url": "https://github.com/marijnheule/drat-trim/pull/40",
+          "title": "drat-trim.c, decompress.c: fix `gcc-14` build"
+        },
+        {
+          "number": 39,
+          "url": "https://github.com/marijnheule/drat-trim/issues/39",
+          "title": "Comments not properly ignored in the INPUT file"
+        }
+      ]
+    },
+    {
+      "full": "digama0/frat",
+      "url": "https://github.com/digama0/frat",
+      "stars": 16,
+      "pushed_at": "2023-04-08T06:55:38Z",
+      "archived": false,
+      "license": "UNCLASSIFIED",
+      "branch": "master",
+      "observed": "2026-10-19T06:23:16.685Z",
+      "issues": [
+        {
+          "number": 18,
+          "url": "https://github.com/digama0/frat/issues/18",
+          "title": "Behavior difference between -ss and -s"
+        }
+      ]
+    },
+    {
+      "full": "krobelus/rate",
+      "url": "https://github.com/krobelus/rate",
+      "stars": 10,
+      "pushed_at": "2022-02-12T05:44:34Z",
+      "archived": false,
+      "license": "MIT",
+      "branch": "master",
+      "observed": "2026-10-19T06:23:16.842Z",
+      "issues": [
+        {
+          "number": 104,
+          "url": "https://github.com/krobelus/rate/issues/104",
+          "title": "Something probably wrong..."
+        },
+        {
+          "number": 103,
+          "url": "https://github.com/krobelus/rate/pull/103",
+          "title": "Bump zstd from 0.5.1+zstd.1.4.4 to 0.6.0+zstd.1.4.8"
+        },
+        {
+          "number": 102,
+          "url": "https://github.com/krobelus/rate/pull/102",
+          "title": "Bump serde from 1.0.104 to 1.0.118"
+        },
+        {
+          "number": 101,
+          "url": "https://github.com/krobelus/rate/pull/101",
+          "title": "Bump toml from 0.5.5 to 0.5.8"
+        },
+        {
+          "number": 100,
+          "url": "https://github.com/krobelus/rate/pull/100",
+          "title": "Bump quote from 1.0.2 to 1.0.8"
+        }
+      ]
+    }
+  ],
+  "readmes": [
+    {
+      "repo": "marijnheule/drat-trim",
+      "path": "README.md",
+      "sha": "eb6ffcc4a85ff1c74a5995b6caae4372381dcd47"
+    },
+    {
+      "repo": "digama0/frat",
+      "path": "README.md",
+      "sha": "0864ba034d50dbacfb1835c24d108e93d0a8bad9"
+    },
+    {
+      "repo": "krobelus/rate",
+      "path": "README.md",
+      "sha": "7595e8eab4f273f2ff92c62869f7604991cf909d"
+    }
+  ],
+  "source_references": [
+    {
+      "repo": "marijnheule/drat-trim",
+      "path": "drat-trim.c",
+      "sha": "cf8a676ffcc7ef5a47124bbafc9b680a2df333e0",
+      "observed": "2026-10-19T06:24:10.299Z"
+    }
+  ],
+  "queries": [
+    {
+      "query": "FITS astronomy",
+      "url": "https://github.com/search?q=FITS%20astronomy&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:20:32.368Z",
+      "sort": "Most stars",
+      "results": [
+        "ATTron/astroz",
+        "sherpa/sherpa",
+        "esheldon/fitsio",
+        "TheCyberBrick/FITS-Rating-Tool",
+        "danieljprice/splash",
+        "Hrishikesh332/Astronomy_Analysis",
+        "nom-tam-fits/nom-tam-fits",
+        "onekiloparsec/QLFits",
+        "astroclubiitk/Computational-Astrophysics-2021",
+        "JuliaAstro/FITSIO.jl"
+      ]
+    },
+    {
+      "query": "ELF parser",
+      "url": "https://github.com/search?q=ELF%20parser&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:20:33.523Z",
+      "sort": "Most stars",
+      "results": [
+        "lief-project/LIEF",
+        "eliben/pyelftools",
+        "m4b/goblin",
+        "elfmaster/libelfmaster",
+        "zszszszsz/.config",
+        "aclements/libelfin",
+        "cole14/rust-elf",
+        "finixbit/elf-parser",
+        "aep/elfkit",
+        "fornwall/jelf"
+      ]
+    },
+    {
+      "query": "TIFF image",
+      "url": "https://github.com/search?q=TIFF%20image&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:20:34.587Z",
+      "sort": "Most stars",
+      "results": [
+        "lovell/sharp",
+        "libvips/libvips",
+        "SixLabors/ImageSharp",
+        "Lymphatus/caesium-image-compressor",
+        "sylikc/jpegview",
+        "drewnoakes/metadata-extractor",
+        "JimBobSquarePants/ImageProcessor",
+        "woelper/oculante",
+        "davidbyttow/govips",
+        "Tom94/tev"
+      ]
+    },
+    {
+      "query": "bin packing",
+      "url": "https://github.com/search?q=bin%20packing&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:20:35.685Z",
+      "sort": "Most stars",
+      "results": [
+        "cfig/Android_boot_image_editor",
+        "alexfrom0815/Online-3D-BPP-PCT",
+        "juj/RectangleBinPack",
+        "alexfrom0815/Online-3D-BPP-DRL",
+        "jakesgordon/bin-packing",
+        "dvdoug/BoxPacker",
+        "skjolber/3d-bin-container-packing",
+        "enzoruiz/3dbinpacking",
+        "jerry800416/3D-bin-packing",
+        "Flamethr0wer/polygon-packer"
+      ]
+    },
+    {
+      "query": "DRAT proof",
+      "url": "https://github.com/search?q=DRAT%20proof&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:20:36.716Z",
+      "sort": "Most stars",
+      "results": [
+        "marijnheule/drat-trim",
+        "digama0/frat",
+        "krobelus/rate",
+        "jesse-michael-han/neurocuber-public",
+        "marijnheule/pr2drat",
+        "jingchaochen/abcdSAT_Rat",
+        "benjaminkiesl/drat2er",
+        "cmu-transparency/verified_rup",
+        "prateekkumarweb/sat-verifier",
+        "jjasferreira/maxsat-core-bench"
+      ]
+    },
+    {
+      "query": "cutting stock",
+      "url": "https://github.com/search?q=cutting%20stock&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:22:22.814Z",
+      "sort": "Most stars",
+      "results": [
+        "danderfer/Comp_Sci_Sem_2",
+        "bozokopic/opcut",
+        "emadehsan/csp",
+        "kaiT2en/KaiT2en-Fedora",
+        "fabiofdsantos/2d-cutting-stock-problem",
+        "shivamim/Finance_AgenticAI",
+        "Jimmymugendi/Realtime-Data-Pipeline-for-Stock-Market-Analysis",
+        "AlexanderMorozovDesign/Linear_Cutting",
+        "MasumBhuiyan/2D-Irregular-Cutting-Stock-Algorithm",
+        "ccorcos/stock-cutting"
+      ]
+    },
+    {
+      "query": "Astropy",
+      "url": "https://github.com/search?q=Astropy&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:22:24.018Z",
+      "sort": "Most stars",
+      "results": [
+        "astropy/astropy",
+        "sunpy/sunpy",
+        "astropy/astroquery",
+        "asdf-format/asdf",
+        "astropy-learn/astropy-tutorials",
+        "astropy/photutils",
+        "gammapy/gammapy",
+        "astropy/specutils",
+        "astropy/astropy-workshop",
+        "astropy/ccd-reduction-and-photometry-guide"
+      ]
+    },
+    {
+      "query": "DRUP",
+      "url": "https://github.com/search?q=DRUP&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-19T06:22:25.128Z",
+      "sort": "Most stars",
+      "results": [
+        "drupal/drupal",
+        "drupal-composer/drupal-project",
+        "fossasia/phimpme-drupal",
+        "geerlingguy/drupal-vm",
+        "wodby/docker4drupal",
+        "hechoendrupal/drupal-console",
+        "perusio/drupal-with-nginx",
+        "chapter-three/next-drupal",
+        "immunIT/drupwn",
+        "dreadlocked/Drupalgeddon2"
+      ]
+    }
+  ],
+  "primary_reference": "https://www.cs.utexas.edu/~marijn/drat-trim/"
+}
