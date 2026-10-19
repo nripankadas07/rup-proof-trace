@@ -1,6 +1,6 @@
 {
   "repo": "rup-proof-trace",
-  "units": 12,
+  "units": 13,
   "capability": "Explain small RUP additions with assumptions, unit reasons and an explicit final-empty-clause requirement.",
   "user": "SAT experiment authors debugging small unsatisfiability certificates.",
   "pain": "A partial or rejected trace needs clause-level reasons; successful intermediate additions do not prove the complete certificate.",
