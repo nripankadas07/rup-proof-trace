@@ -1,0 +1,28 @@
+{
+  "repo": "rup-proof-trace",
+  "units": 12,
+  "capability": "Explain small RUP additions with assumptions, unit reasons and an explicit final-empty-clause requirement.",
+  "user": "SAT experiment authors debugging small unsatisfiability certificates.",
+  "pain": "A partial or rejected trace needs clause-level reasons; successful intermediate additions do not prove the complete certificate.",
+  "comparables": [
+    "marijnheule/drat-trim",
+    "digama0/frat",
+    "krobelus/rate"
+  ],
+  "leader": "marijnheule/drat-trim",
+  "query": "DRAT proof; DRUP (unrelated Drupal matches excluded)",
+  "contract": "ASCII DIMACS p cnf header with exact clause count and0 termination;0..64 variables,0..256 initial clauses. Text proof has one addition or d-prefixed deletion per noncomment line. Canonical clauses retain duplicate-clause identities; deletion removes exactly one matching active clause, including units, and absent deletions fail. For each addition assume its negation and perform deterministic unit propagation; report assumptions, implied literals with clause IDs, and conflict. Only an accepted empty clause as the final noncomment step yields verified/exit0. Non-RUP additions and incomplete traces exit1, not a SAT counterexample.",
+  "limits": "Combined inputs1 MiB,512 steps,2million literal visits. Existing variables only. No RAT, fresh variables, binary DRAT, FRAT or LRAT. Strict unit-deletion application differs from some DRAT-trim modes; no broad compatibility certification. Educational bounded checker, not formally verified or production assurance. Proof comments start with c on their own lines.",
+  "acceptance": "Clause-reason traces, full/incomplete/rejected proof, contradictory assumptions, initial empty clause, duplicate multiset and unit deletions, final-empty enforcement, DIMACS bounds and visit-budget failure.",
+  "notes": "DRAT-trim implements much broader DRAT checking and proof output; FRAT carries annotated proof evidence; rate addresses RAT elimination. Their historical research repositories remain useful comparisons even with older push dates. DRAT-trim LRAT issue42/PR43 is a different checker path, not evidence of a defect in RUP or demand for this tool. Existing algorithms are not claimed as new.",
+  "overlap": "No owned CNF proof checker was found among198 repositories. Numeric and bit-vector tools do not validate clause-addition proofs.",
+  "topics": [
+    "sat",
+    "rup",
+    "proof-checking",
+    "python"
+  ],
+  "standard": "https://www.cs.utexas.edu/~marijn/drat-trim/",
+  "expected": "Exit0: addition1 has a unit conflict under assumption-1; the final empty clause is accepted after adding1.",
+  "module": "rup_proof_trace"
+}
